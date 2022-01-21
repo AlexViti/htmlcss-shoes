@@ -6,6 +6,7 @@
 
 html {
 	font-family: 'Rubik Mono One', sans-serif;
+	scroll-behavior: smooth;
 }
 
 .block {
@@ -32,7 +33,7 @@ html {
 }
 
 .container {
-	width: 600px;
+	width: 800px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -43,4 +44,23 @@ html {
 
 .container>img {
 	width: 100%;
+}
+
+.fixed-btns {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.fixed-btns>a {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
 }
