@@ -63,4 +63,13 @@ html {
 	vertical-align: middle;
 	text-decoration: none;
 	color: black;
+	box-shadow: -2px 1px 2px black
+}
+
+.fixed-btns>a:hover {
+	box-shadow: -2px 2px 5px black;
+}
+
+.fixed-btns>a:active {
+	background-color: gray;
 }
